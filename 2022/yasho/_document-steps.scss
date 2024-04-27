@@ -1,0 +1,1021 @@
+#document-steps {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    display: flex;
+    .content {
+        margin: 20px 0 0 0;
+        width: 100%;
+        .page-row {
+            display: flex;
+            margin: 20px 0 60px 0;
+            .page {
+                width: 100%;
+                border-top: 6px solid $primary;
+                padding: 47px 0 50px 0;
+                h1 {
+                    font-family: $font-bold;
+                    font-size: 18px;
+                    color: $black3;
+                    text-align: center;
+                    margin: 0;
+                }
+                .into-para {
+                    margin: 40px 60px 30px 60px;
+                    white-space: break-spaces;
+                    white-space: inherit;
+                }
+                form {
+                    margin: 0;
+                    .form-group {
+                        padding: 0 60px 20px 60px;
+                        margin-bottom: 10px;
+                        &.with-border {
+                            border-bottom: 1px solid $gray;
+                            padding: 0 60px 40px 60px;
+                            margin: 0 0 40px 0;
+                            .image-default {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                        }
+                        &.list-group {
+                            margin-top: 70px;
+                            padding: 0 130px;
+                            ul {
+                                margin: 0;
+                                padding: 0;
+                                list-style: none;
+                                li {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 10px;
+                                    border-bottom: 1px solid $main-line;
+                                    &:nth-last-child(1) {
+                                        border: unset;
+                                    }
+                                    .list-left {
+                                        width: 436px;
+                                        .gray-text-area {
+                                            display: flex;
+                                            line-height: 10px;
+                                            .date-text {
+                                                font-size: 10px;
+                                                color: $gray-text;
+                                            }
+                                            .info-text {
+                                                font-size: 11px;
+                                                color: $gray-text;
+                                                margin-left: 10px;
+                                                span {
+                                                    font-size: 10px;
+                                                }
+                                            }
+                                        }
+                                        p {
+                                            display: block;
+                                            margin: 5px 0 0 0;
+                                            font-size: 12px;
+                                            line-height: 18px;
+                                            white-space: break-spaces;
+                                        }
+                                    }
+                                    .list-right {
+                                        display: flex;
+                                        margin-left: auto;
+                                        .btn {
+                                            img {
+                                                margin: -2px 6px 0 0;
+                                            }
+                                            &.btn-outline-primary {
+                                                min-width: 116px;
+                                            }
+                                            &.btn-secondary {
+                                                width: 62px;
+                                                margin-left: 10px;
+                                                img {
+                                                    margin: -2px 6px 0 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            textarea {
+                                height: 138px;
+                                margin-top: 11px;
+                            }
+                            .btn-primary {
+                                width: 120px;
+                                height: 34px;
+                                font-family: $font-medium;
+                                font-size: 11px;
+                                margin-top: 20px;
+                            }
+                        }
+                        label {
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            align-items: center;
+                            .btn-outline-primary {
+                                margin: 0 0 0 auto;
+                                img {
+                                    margin: 0 6px 0 0;
+                                }
+                            }
+                        }
+                        textarea {
+                            height: 120px;
+                            resize: unset;
+                            white-space: pre-line;
+                            font-size: 12px;
+                            line-height: 18px;
+                            padding: 15px 20px;
+                        }
+                        .h-200 {
+                            height: 200px !important;
+                        }
+                        small {
+                            font-size: 10px;
+                            color: $gray-text;
+                            text-align: right;
+                            display: block;
+                            margin-top: 5px;
+                            span {
+                                color: $required;
+                            }
+                        }
+                        .btn-area {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-top: 20px;
+                            .btn {
+                                font-size: 12px;
+                                min-width: 160px;
+                                margin: 0 5px;
+                            }
+                        }
+                        .gray-area {
+                            background-color: $gray;
+                            padding: 10px 20px 10px 20px;
+                            border-radius: 4px;
+                            label {
+                                font-family: $font-regular;
+                                font-size: 11px;
+                                line-height: 18px;
+                                margin-top: 10px;
+                            }
+                            .tag-area {
+                                display: inline;
+                            }
+                            .row {
+                                .col-6 {
+                                    label {
+                                        font-family: $font-medium;
+                                        margin: 10px 0 9px 0;
+                                        color: $black3;
+                                        small {
+                                            font-family: $font-regular;
+                                            font-size: 10px;
+                                            color: $black3;
+                                            margin: -1px 0 0 5px;
+                                        }
+                                    }
+                                    .form-control {
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        .instruction {
+                            font-family: $font-regular;
+                            font-size: 12px;
+                            line-height: 18px;
+                            color: $gray-text;
+                            text-align: left;
+                            margin: 27px 0 30px 0;
+                        }
+                        .input-row {
+                            display: flex;
+                            align-items: center;
+                            padding-bottom: 20px;
+                            border-bottom: 1px solid $main-line;
+                            margin-bottom: 20px;
+                            .input-area {
+                                width: 678px;
+                                .custom-file {
+                                    margin-bottom: 10px;
+                                }
+                            }
+                            .w-566 {
+                                width: 566px;
+                                margin-right: 20px;
+                            }
+                            .bin-btn-area {
+                                .btn-secondary {
+                                    &.sml {
+                                        margin-left: 20px;
+                                        img {
+                                            margin: -2px 6px 0 0;
+                                        }
+                                    }
+                                }
+                                .h-28 {
+                                    height: 28px;
+                                }
+                            }
+                        }
+                        .btn-primary {
+                            &.sml {
+                                img {
+                                    margin: -2px 6px 0 0;
+                                }
+                            }
+                        }
+                    }
+                    .table-area {
+                        .table {
+                            &.step2-tbl1 {
+                                thead {
+                                    tr {
+                                        th {
+                                            font-family: $font-medium;
+                                            text-align: center;
+                                            color: $black3;
+                                        }
+                                    }
+                                }
+                                tbody {
+                                    tr {
+                                        td {
+                                            .td-flex {
+                                                display: flex;
+                                                align-items: center;
+                                                font-size: 10px;
+                                                line-height: 10px;
+                                            }
+                                            .w-110 {
+                                                width: 110px;
+                                            }
+                                            .w-75 {
+                                                width: 75px !important;
+                                                margin-right: 5px;
+                                            }
+                                            .btn-secondary {
+                                                &.sml {
+                                                    img {
+                                                        margin: -2px 6px 0 0;
+                                                    }
+                                                }
+                                            }
+                                            &:nth-child(1) {
+                                                padding-left: 0;
+                                            }
+                                            &:nth-last-child(1) {
+                                                padding-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.step2-tbl2 {
+                                thead {
+                                    tr {
+                                        th {
+                                            font-family: $font-medium;
+                                            text-align: center;
+                                            color: $black3;
+                                        }
+                                    }
+                                }
+                                tbody {
+                                    tr {
+                                        td {
+                                            .td-flex {
+                                                display: flex;
+                                                align-items: center;
+                                                font-size: 10px;
+                                                line-height: 10px;
+                                            }
+                                            .w-140 {
+                                                width: 140px;
+                                            }
+                                            .w-100 {
+                                                width: 100px !important;
+                                            }
+                                            .w-288 {
+                                                width: 288px;
+                                            }
+                                            .btn-secondary {
+                                                &.sml {
+                                                    img {
+                                                        margin: -2px 6px 0 0;
+                                                    }
+                                                }
+                                            }
+                                            &:nth-child(1) {
+                                                padding-left: 0;
+                                            }
+                                            &:nth-last-child(1) {
+                                                padding-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step3 {
+        .content {
+            .page-row {
+                .page form {
+                    .form-group {
+                        padding: 0 60px 10px 60px;
+                        margin-bottom: 0;
+                        &.with-border {
+                            padding: 0 60px 40px 60px;
+                            margin-bottom: 40px;
+                        }
+                        &.list-group {
+                            padding: 0 130px;
+                        }
+                        &.mt-4 {
+                            margin-top: 40px !important;
+                        }
+                        .h-400 {
+                            height: 400px;
+                        }
+                        .gray-area {
+                            .gray-title {
+                                font-size: 11px;
+                                line-height: 18px;
+                                color: $text-black;
+                                text-align: left;
+                            }
+                            label {
+                                margin-bottom: 5px;
+                            }
+                        }
+                        .btn-area {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step4, &.step6, &.step10, &.step12, &.step13 {
+        .content {
+            .page-row {
+                .page form {
+                    .form-group {
+                        padding: 0 60px 0 60px;
+                        margin-bottom: 10px;
+                        &.with-border {
+                            padding-bottom: 40px;
+                            margin-bottom: 40px;
+                        }
+                        &.list-group {
+                            padding: 0 130px;
+                        }
+                        .warn_text {
+                            font-family: $font-regular;
+                            font-size: 11px;
+                            color: $danger;
+                            margin: 5px 0 0 0;
+                        }
+                        .btn_row {
+                            display: flex;
+                            align-items: center;
+                            margin: 50px 0 10px 0;
+                            label {
+                                margin: 0;
+                            }
+                            .btn-outline-primary {
+                                &.sml {
+                                    margin: 0 0 0 auto;
+                                    img {
+                                        margin: 0 6px 0 0;
+                                    }
+                                }
+                            }
+                        }
+                        .h-400 {
+                            height: 400px;
+                        }
+                        .gray-area {
+                            .gray-title {
+                                font-family: $font-regular;
+                                font-size: 11px;
+                                line-height: 18px;
+                                color: $text-black;
+                                text-align: left;
+                                margin-top: 10px;
+                            }
+                            label {
+                                font-family: $font-medium;
+                                font-size: 12px;
+                                margin-bottom: 5px;
+                            }
+                        }
+                        .btn-area {
+                            margin-top: 50px;
+                        }
+                    }
+                    .mt-50 {
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+    &.step6 {
+        .content {
+            .page-row {
+                .page form {
+                    .mt-50 {
+                        margin-top: 50px;
+                    }
+                    .form-group {
+                        padding: 0 60px 10px 60px;
+                        margin-bottom: 0;
+                        &.with-border {
+                            padding: 0 60px 40px 60px;
+                            margin-bottom: 40px;
+                        }
+                        &.list-group {
+                            padding: 0 130px;
+                        }
+                        &.mt-4 {
+                            margin-top: 40px !important;
+                        }
+                        .w-120 {
+                            width: 120px;
+                        }
+                        .w-84 {
+                            width: 84px;
+                        }
+                        .h-400 {
+                            height: 400px;
+                        }
+                        .gray-area {
+                            .gray-title {
+                                font-size: 11px;
+                                line-height: 18px;
+                                color: $text-black;
+                                text-align: left;
+                            }
+                            label {
+                                margin-bottom: 5px;
+                            }
+                        }
+                        .btn-area {
+                            margin-top: 40px;
+                        }
+                    }
+                    .table-area {
+                        .table {
+                            &.step6-tbl1 {
+                                thead {
+                                    tr {
+                                        th {
+                                            font-family: $font-medium;
+                                            text-align: center;
+                                            color: $black3;
+                                            &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(6) {
+                                                padding-left: 0;
+                                                width: 120px;
+                                            }
+                                            &:nth-child(3), &:nth-child(4) {
+                                                width: 84px;
+                                                padding-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                                tbody {
+                                    tr {
+                                        td {
+                                            padding-left: 5px;
+                                            padding-right: 5px;
+                                            .td-flex {
+                                                display: flex;
+                                                align-items: center;
+                                                font-size: 10px;
+                                                line-height: 10px;
+                                            }
+                                            .w-110 {
+                                                width: 110px;
+                                            }
+                                            .w-75 {
+                                                width: 75px !important;
+                                                margin-right: 5px;
+                                            }
+                                            .btn-secondary {
+                                                &.sml {
+                                                    min-width: 62px;
+                                                    img {
+                                                        margin: -2px 6px 0 0;
+                                                    }
+                                                }
+                                            }
+                                            &:nth-last-child(1) {
+                                                padding-right: 0;
+                                            }
+                                            &:nth-child(1) {
+                                                padding-left: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step7 {
+        .content .page-row .page .into-para {
+            white-space:break-spaces;
+        }
+        .content {
+            .page-row {
+                .page {
+                    form {
+                        .form-group {
+                            .check-area {
+                                display: flex;
+                                background-color: $gray;
+                                border-radius: 4px;
+                                padding: 20px;
+                                .form-check {
+                                    .form-check-label {
+                                        margin-right: 30px;
+                                        margin-bottom: 0;
+                                        font-size: 12px;
+                                        line-height: 12px;
+                                    }
+                                }
+                            }
+                            label {
+                                &.sml {
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    color: $black3;
+                                    margin-top: 30px;
+                                }
+                                &.underlined {
+                                    padding: 0 0 7px 0;
+                                    margin: 40px 0 0 0;
+                                    border-bottom: 1px solid $main-line;
+                                }
+                            }
+                            .w-180 {
+                                width: 180px;
+                            }
+                            .btn-area {
+                                margin-top: 50px;
+                            }
+                        }
+                        // Custom scrollbar
+                        .table-area::-webkit-scrollbar {
+                            height: 5px;
+                            border-radius: 10px;
+                            background-color: #e4f1fb;
+                        }
+                        .table-areaody::-webkit-scrollbar-track {
+                            background: $primary; 
+                        }
+                        .table-area::-webkit-scrollbar-thumb {
+                            background: $primary; 
+                            border-radius: 20px;
+                        }
+                        // Scrolable Table SCSS
+                        .table-area {
+                            width: calc(100% - 400px);
+                            overflow-x: scroll;
+                            margin-left: 320px;
+                            overflow-y: visible;
+                            padding: 0;
+                            scrollbar-width: thin;
+                            scrollbar-color: $primary #e4f1fb;
+                            table {
+                                border-spacing: 0;
+                                tbody {
+                                    tr {
+                                        height: 72px;
+                                    }
+                                }
+                                tbody, thead {
+                                    tr {
+                                        th {
+                                            padding: 0.5rem 0.5rem;
+                                            &.headcol, &.headcol2 {
+                                                padding: 0.5rem 0.5rem;
+                                                padding-right: 0;
+                                                width: 165px !important;
+                                                text-align: center;
+                                                margin-top: 9px !important;
+                                                border-bottom: 1px solid $main-line;
+                                            }
+                                            &.headcol-end {
+                                                padding: 0.5rem 0.5rem;
+                                                padding-right: 0;
+                                                width: 62px !important;
+                                                text-align: center;
+                                                margin-top: 9px !important;
+                                                height: auto !important;
+                                            }
+                                        }
+                                        td {
+                                            min-width: 80px;
+                                        }
+                                        td, th {
+                                            margin: 0;
+                                            white-space: nowrap;
+                                            &:nth-child(1) {
+                                                padding-left: 0;
+                                            }
+
+                                            &.headcol {
+                                                position: absolute;
+                                                width: auto;
+                                                left: 60px;
+                                                top: auto;
+                                                margin-top: -1px;
+                                                border-bottom: 1px solid $main-line;
+                                            }
+                                            &.headcol2 {
+                                                position: absolute;
+                                                width: auto;
+                                                left: 210px;
+                                                top: auto;
+                                                padding-right: 0;
+                                                margin-top: -1px;
+                                                border-bottom: 1px solid $main-line;
+                                            }
+                                            &.headcol-end {
+                                                position: absolute;
+                                                width: auto;
+                                                right: 60px;
+                                                top: auto;
+                                                padding-right: 0;
+                                                min-width: 56px;
+                                                border-bottom: 1px solid $main-line;
+                                                height: 72px;
+                                                .btn {
+                                                    &.btn-secondary {
+                                                        &.sml {
+                                                            img {
+                                                                margin: -2px 6px 0 0;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .w-150 {
+                                                min-width: 150px;
+                                                max-width: 150px;
+                                            }
+                                            .form-check {
+                                                padding-left: 0;
+                                                .form-check-input {
+                                                    display: block;
+                                                    margin: auto;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-primary {
+                            &.left-center {
+                                width: 120px;
+                                margin: 5px 0 0 95px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step8 {
+        .content .page-row .page .into-para {
+            white-space: inherit;
+        }
+        .content {
+            .page-row {
+                .page {
+                    form {
+                        .form-group {
+                            .check-area, .tag-area {
+                                display: flex;
+                                background-color: $gray;
+                                border-radius: 4px;
+                                padding: 20px;
+                                .form-check {
+                                    .form-check-label {
+                                        margin-right: 30px;
+                                        margin-bottom: 0;
+                                        font-size: 12px;
+                                        line-height: 12px;
+                                    }
+                                }
+                            }
+                            .tag-area {
+                                margin-top: 10px;
+                                padding: 20px 20px 10px 20px;
+                            }
+                            label {
+                                &.sml {
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    color: $black3;
+                                    margin-top: 30px;
+                                }
+                                &.underlined {
+                                    padding: 0 0 7px 0;
+                                    margin: 40px 0 0 0;
+                                    border-bottom: 1px solid $main-line;
+                                }
+                            }
+                            .h-400 {
+                                height: 400px;
+                            }
+                            .btn-area {
+                                margin-top: 50px;
+                            }
+                        }
+                        .mt-50 {
+                            margin-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step9 {
+        .content {
+            .page-row {
+                .page form {
+                    .form-group {
+                        .h-400 {
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step10 {
+        .content {
+            .page-row {
+                .page form {
+                    .form-group {
+                        .btn_row {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step11 {
+        .content {
+            .page-row {
+                .page {
+                    form {
+                        .form-group {
+                            .input-row {
+                                padding: 15px 0;
+                                margin: 0;
+                                &.head-row {
+                                    padding: 0 0 8px 0;
+                                    margin-top: 20px;
+                                }
+                                .input-area {
+                                    display: flex;
+                                    &.column {
+                                        flex-direction: column;
+                                    }
+                                    .form-control {
+                                        font-family: $font-regular;
+                                    }
+                                    .data-1, .data-2, .data-3, .data-4 {
+                                        font-family: $font-medium;
+                                        font-size: 10px;
+                                        color: $black3;
+                                        text-align: center;
+                                        margin-right: 10px;
+                                    }
+                                    .data-1 {
+                                        width: 180px;
+                                    }
+                                    .data-2 {
+                                        width: 180px;
+                                    }
+                                    .data-3 {
+                                        width: 120px;
+                                        margin-right: 0;
+                                    }
+                                    .data-4 {
+                                        width: 188px;
+                                        margin-right: 0;
+                                    }
+                                    .data-5 {
+                                        margin-left: auto;
+                                    }
+                                    .data-column {
+                                        width: 698px;
+                                        margin: 10px 0 0 0;
+                                        textarea {
+                                            height: 78px;
+                                            padding: 12px 15px 0 15px;
+                                        }
+                                    }
+                                }
+                                .bin-btn-area {
+                                    margin-left: auto;
+                                }
+                            }
+                            .btn-primary {
+                                &.sml {
+                                    margin-top: 20px;
+                                }
+                            }
+                            .btn-area {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step12 {
+        .content {
+            .page-row {
+                .page form {
+                    .form-group {
+                        .gray-area {
+                            padding: 20px;
+                            .gray-title {
+                                margin: 0 0 10px 0;
+                            }
+                        }
+                        .btn_row {
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step13 {
+        // 
+    }
+    &.step15 {
+        .content .page-row .page .into-para {
+            white-space: inherit;
+        }
+        .content {
+            .page-row {
+                .page {
+                    form {
+                        .form-group {
+                            label {
+                                &.sml {
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    color: $black3;
+                                    margin-top: 30px;
+                                }
+                            }
+                            .w-180 {
+                                width: 180px;
+                            }
+                            .w-360 {
+                                width: 360px;
+                            }
+                            .btn-area {
+                                margin-top: 50px;
+                            }
+                        }
+                        // Custom scrollbar
+                        .table-area::-webkit-scrollbar {
+                            height: 5px;
+                            border-radius: 10px;
+                            background-color: #e4f1fb;
+                        }
+                        .table-areaody::-webkit-scrollbar-track {
+                            background: $primary; 
+                        }
+                        .table-area::-webkit-scrollbar-thumb {
+                            background: $primary; 
+                            border-radius: 20px;
+                        }
+                        // Scrolable Table SCSS
+                        .table-area {
+                            width: 580px;
+                            overflow-x: scroll;
+                            margin-left: 200px;
+                            margin-top: 40px;
+                            overflow-y: visible;
+                            padding: 0;
+                            scrollbar-width: thin;
+                            scrollbar-color: $primary #e4f1fb;
+                            table {
+                                border-spacing: 0;
+                                tbody {
+                                    tr {
+                                        height: 72px;
+                                    }
+                                }
+                                tbody, thead {
+                                    tr {
+                                        th {
+                                            padding: 0.5rem 0.5rem;
+                                            &.headcol {
+                                                width: 180px !important;
+                                                text-align: center;
+                                                margin-top: 9px !important;
+                                                border-bottom: 1px solid $main-line;
+                                                padding: 18px 0 8px 0;
+                                            }
+                                            .text-primary {
+                                                font-family: $font-medium;
+                                                font-size: 10px;
+                                                color: $primary;
+                                                text-align: center;
+                                            }
+                                            .text-dark {
+                                                font-family: $font-medium;
+                                                font-size: 10px;
+                                                color: $text-black;
+                                                text-align: center;
+                                                margin: 2px 0 0 0;
+                                            }
+                                        }
+                                        td {
+                                            min-width: 130px;
+                                            width: 130px;
+                                            &.headcol {
+                                                height: 178px;
+                                                padding: 16px 0 11px 0;
+                                            }
+                                        }
+                                        td, th {
+                                            margin: 0;
+                                            white-space: nowrap;
+                                            padding-left: 0;
+                                            padding-right: 10px;
+                                            &:nth-child(1) {
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                            }
+                                            &:nth-last-child(1) {
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                            }
+                                            &.headcol {
+                                                position: absolute;
+                                                width: 180px;
+                                                left: 60px;
+                                                top: auto;
+                                                margin-top: -1px;
+                                                border-bottom: 1px solid $main-line;
+                                            }
+                                            .form-control {
+                                                width: 100%;
+                                                margin-bottom: 10px;
+                                                &:disabled {
+                                                    background-color: $gray;
+                                                }
+                                                &:nth-last-child(1) {
+                                                    margin-bottom: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-primary {
+                            &.left-center {
+                                width: 120px;
+                                margin: 5px 0 0 95px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
